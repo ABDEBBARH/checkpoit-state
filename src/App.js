@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import personalImg  from './personalImg.jpg';
+import personalImg  from './debbarh-removebg-preview.png';
 
 
 class App extends Component{
@@ -9,10 +9,10 @@ class App extends Component{
       //number:1,
       show : true,
       Person : { 
-                fullName : "Firas Djebbi",
-                bio : "Licencié en réseaux", 
+                fullName : "abdelhafid debbarh ",
+                bio : "web developer", 
                 imgSrc: personalImg, 
-                profession:"Instructor in GMC"
+                profession:"Student in GMC"
               },
     }
     this.clickHandler = this.clickHandler.bind(this);
